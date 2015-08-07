@@ -8,7 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController {
+    IBOutlet UILabel *weight;
+    IBOutlet UILabel *averageCals;
+    IBOutlet UILabel *averageSteps;
+    
+    IBOutlet UILabel *currentCals;
+    IBOutlet UILabel *currentSteps;
+}
 
 @end
 
